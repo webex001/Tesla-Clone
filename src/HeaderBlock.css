@@ -1,0 +1,88 @@
+.headerBlock {
+    background-image: url("./images/model-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.headerBlock__info{ 
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+
+}
+
+.headerBlock__infoText{
+    text-align: center;
+    flex: 1;
+}
+
+.headerBlock__infoText > h1{
+    color: #393c41;
+    font-weight: 500;
+    font-size: 38px;
+
+}
+
+.headerBlock__infoText > h4{
+    color: #5c5e62;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.headerBlock__infoText > h4 > span{
+    padding-bottom: 4px;
+    padding-top: 15px;
+    border-bottom: 1px solid black ;
+    color: #393c41;
+    cursor: pointer;
+}
+
+.headerBlock__infoText > h4 >span:hover{
+    border-bottom-width:  2px;
+    color: black;
+}
+
+.headerBlock__actions{
+    margin-top: 330px;
+    display: flex;
+    gap: 30px;
+}
+
+.headerBlock__actions > button{
+    cursor: pointer;
+    border: none;
+    width: 260px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.headerBlock__buttonPrimary{
+    background-color: #393c41;
+    color: white;
+    opacity: 0.9;
+}
+
+
+
+.headerBlock__buttonSecondary{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
