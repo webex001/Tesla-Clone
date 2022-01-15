@@ -11,7 +11,8 @@ import { login, logout, selectUser } from './features/userSlice';
 import Signup from './Signup';
 import TeslaAccount from './TeslaAccount';
 import { auth } from './firebase';
-import Home from './Home'
+import Home from './Home';
+import ModelS from './components/Model-S/Model-S';
 
 function App() {
   const user = useSelector(selectUser);
@@ -41,6 +42,11 @@ function App() {
               <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
               {isMenuOpen && <Menu />}
               <Home/>
+          </Route>
+          <Route exact path="/model-s">
+              <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
+              {isMenuOpen && <Menu />}
+              <ModelS />
           </Route>
           <Route exact path="/login">
             {user ? <Redirect to="/teslaaccount"/> : <Login/>}

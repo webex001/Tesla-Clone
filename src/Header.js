@@ -12,7 +12,7 @@ const Header = ({isMenuOpen, setIsMenuOpen}) => {
                 </Link>
            </div>
            <div className="header__links">
-               <Link to="/">Model S</Link>
+               <Link to="/model-s">Model S</Link>
                <Link to="/">Model 3</Link>
                <Link to="/">Model X</Link>
                <Link to="/">Model Y</Link>

@@ -1,0 +1,19 @@
+h5{
+    color: white;
+    font-size: 28px;
+    line-height: 28px;
+    font-style: normal;
+}
+p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: normal;
+}
+.model-sub{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #181b21;
+}
