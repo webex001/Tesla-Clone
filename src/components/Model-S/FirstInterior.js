@@ -3,46 +3,24 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 import './Header.css';
 
-const Header = ({title, description, leftBtnText, rightBtnText, backgroundImg}) => {
+const FirstInterior = ({title, description, leftBtnText, rightBtnText, backgroundImg}) => {
     return (
+
+        
+    
         <Wrap>
+            <TextContainer>
             <Fade bottom>
                 <ItemText>
-                    <h1>Model S</h1>
-                    <p className='model-sub'>Plaid</p>
+                    <h5>All-New Interior</h5>
                 </ItemText>
             </Fade>
-            <Buttons>
-                <Fade bottom>
-                <ButtonGroup>
-                    <SubContainer>
-                        <h5 >396mi</h5>
-                        <p>Range (EPA est.)</p>
-                    </SubContainer>
-                    <SubContainer>
-                        <h5>1.99 s</h5>
-                        <p>0-60 mph* </p>
-                    </SubContainer>
-                    <SubContainer>
-                        <h5>200 mph</h5>
-                        <p>Top Speed† </p>
-                    </SubContainer>
-                    <SubContainer>
-                        <h5>1,020 hp</h5>
-                        <p>Peak Power</p>
-                    </SubContainer>
-
-                    <OrderButton>ORDER NOW</OrderButton>
-                </ButtonGroup>
-                </Fade>
-               
-            </Buttons>
-            
-        </Wrap>       
+        </TextContainer>
+        </Wrap>
     )
 }
 
-export default Header
+export default FirstInterior
 
 const Wrap = styled.div`
     z-index: 10;
@@ -52,19 +30,23 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./images/model-s.jpg");
+    background-image: url("./images/Model S first interior.png");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     `
 
+const TextContainer = styled.div`
+    background: black;
+    padding: 35px 536px;
+    margin-top: -40px;
+`
+
 const ItemText = styled.div`
-    padding-top: 15vh;
     text-align: center;
 
 `
-const FistInterior = styled.div``
 
 const ButtonGroup = styled.div`
     display: flex;

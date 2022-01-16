@@ -3,36 +3,25 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 import './Header.css';
 
-const Header = ({title, description, leftBtnText, rightBtnText, backgroundImg}) => {
+const ModelExteriorImage = ({title, description, leftBtnText, rightBtnText, backgroundImg}) => {
     return (
         <Wrap>
-            <Fade bottom>
-                <ItemText>
-                    <h1>Model S</h1>
-                    <p className='model-sub'>Plaid</p>
-                </ItemText>
-            </Fade>
+            
             <Buttons>
                 <Fade bottom>
                 <ButtonGroup>
                     <SubContainer>
                         <h5 >396mi</h5>
-                        <p>Range (EPA est.)</p>
+                        <p>Performance-focused chassis </p>
                     </SubContainer>
                     <SubContainer>
-                        <h5>1.99 s</h5>
-                        <p>0-60 mph* </p>
+                        <h5>0.208</h5>
+                        <p>Lowest-drag car on Earth </p>
                     </SubContainer>
                     <SubContainer>
                         <h5>200 mph</h5>
-                        <p>Top Speed† </p>
+                        <p> Refined exterior styling </p>
                     </SubContainer>
-                    <SubContainer>
-                        <h5>1,020 hp</h5>
-                        <p>Peak Power</p>
-                    </SubContainer>
-
-                    <OrderButton>ORDER NOW</OrderButton>
                 </ButtonGroup>
                 </Fade>
                
@@ -42,7 +31,7 @@ const Header = ({title, description, leftBtnText, rightBtnText, backgroundImg}) 
     )
 }
 
-export default Header
+export default ModelExteriorImage
 
 const Wrap = styled.div`
     z-index: 10;
@@ -52,7 +41,7 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./images/model-s.jpg");
+    background-image: url("./images/model-x.jpg");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,7 +57,8 @@ const FistInterior = styled.div``
 
 const ButtonGroup = styled.div`
     display: flex;
-    margin-bottom: 80px;
+    margin-top: 490px;
+    margin-bottom: 0px;
     @media (max-width: 768px){
         flex-direction: column;
     }
