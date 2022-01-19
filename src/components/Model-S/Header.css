@@ -37,4 +37,37 @@ h6{
     line-height: 21px;
     font-weight: 400;
     font-style: normal;
+    padding: 0px 50px;
+}
+.title{
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #e2e4e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailTitle{
+    font-weight: 500;
+    font-size: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #181b21;
+    margin-left: 6em;
+}
+.detailText{
+    color: #181b21;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1.5em 12em;
 }

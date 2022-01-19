@@ -22,10 +22,6 @@ const TravelAnywhere = () => {
                         <h5>200 mph</h5>
                         <p>Top Speed† </p>
                     </SubContainer>
-                    <SubContainer>
-                        <h5>1,020 hp</h5>
-                        <p>Peak Power</p>
-                    </SubContainer>
 
                     
                 </ButtonGroup>
@@ -34,7 +30,7 @@ const TravelAnywhere = () => {
             </Buttons>
            </Wrap>
            <GoContainer>
-           <Fade bottom>
+                <Fade bottom>
                     <ExteriorDiv>
                         <h6>Plaid</h6>
                         <h1>Beyond Ludicrous</h1>
@@ -59,7 +55,8 @@ const Container = styled.div`
 
 `
 const GoContainer = styled.div`
-    width: 640px:
+    margin-top: 15px;
+    width: 770px;
 `
 
 const Wrap = styled.div`
@@ -88,6 +85,8 @@ const Wrap = styled.div`
     color: black;
     background: white;
     width: 202px;
+    margin-top: 250px;
+    margin-left: 55px;
     &:hover {
         color: white;
         background: black;
@@ -101,7 +100,7 @@ const Buttons = styled.div`
 `
 const ButtonGroup = styled.div`
     display: flex;
-    margin-bottom: 80px;
+    margin-top: 480px;
     @media (max-width: 768px){
         flex-direction: column;
     }
@@ -111,6 +110,7 @@ const SubContainer = styled.div`
 `
 const ExteriorDiv = styled.div`
     padding: 10px 50px;
+    width: 440px;
 `
 const ExteriorNote = styled.div`
     padding-top: 20px;
