@@ -8,6 +8,7 @@ import EfficiencyDetails from './EfficiencyDetails';
 import TravelAnywhere from './TravelAnywhere';
 import FirstModelGrid from './FirstModelGrid';
 import DetailSlider from './DetailSlider';
+import SecondModelGrid from './SecondModelGrid';
 
 const ModelS = () => {
     return (
@@ -20,6 +21,7 @@ const ModelS = () => {
             <DetailSlider />
             <ModelExteriorImage />
             <EfficiencyDetails />
+            <SecondModelGrid />
             <TravelAnywhere />
         </div>
     )

@@ -71,3 +71,11 @@ h6{
     font-weight: 400;
     margin: 1.5em 12em;
 }
+.slider-title{
+    font-weight: 500;
+    font-size: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #181b21;
+    margin-left: 6em;
+}
