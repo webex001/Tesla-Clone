@@ -9,6 +9,7 @@ import TravelAnywhere from './TravelAnywhere';
 import FirstModelGrid from './FirstModelGrid';
 import DetailSlider from './DetailSlider';
 import SecondModelGrid from './SecondModelGrid';
+import VideoTab from './VideoTab';
 
 const ModelS = () => {
     return (
@@ -20,6 +21,7 @@ const ModelS = () => {
             <ModelTextNotes />
             <DetailSlider />
             <ModelExteriorImage />
+            <VideoTab />
             <EfficiencyDetails />
             <SecondModelGrid />
             <TravelAnywhere />

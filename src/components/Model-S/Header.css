@@ -55,6 +55,26 @@ h6{
     color: #e2e4e4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.second-grid-title{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 135px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second-grid-text{
+    font-style: normal;
+    margin-left: 135px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #e2e4e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .detailTitle{
     font-weight: 500;
     font-size: normal;
@@ -79,3 +99,10 @@ h6{
     color: #181b21;
     margin-left: 6em;
 }
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }

@@ -10,8 +10,8 @@ const SecondModelGrid = () => {
                 <Container>
                 <Fade bottom>
                     <TextContainer>
-                        <h4 className='title'>Game from Anywhere</h4>
-                        <p className='text'>Up to 10 teraflops of processing power enables in-car gaming on-par with today’s newest consoles. Wireless controller compatibility lets you game from any seat.</p>
+                        <h4 className='second-grid-title'>Game from Anywhere</h4>
+                        <p className='second-grid-text'>Up to 10 teraflops of processing power enables in-car gaming on-par with today’s newest consoles. Wireless controller compatibility lets you game from any seat.</p>
                     </TextContainer>
                     <IMGContainer>
                         <img src='./images/secondgrid1.png' ait='' />
@@ -23,16 +23,16 @@ const SecondModelGrid = () => {
                         <img src='./images/secondgrid2.png' ait='' />
                     </IMGContainer>
                     <TextContainer>
-                        <h4 className="slider-title">Stay Connected</h4>
-                        <p className='slider-text'>Multi-device Bluetooth, wireless and USB-C charging for every passenger, with enough power to fast-charge your tablets and laptop.</p>
+                        <h4 className="second-grid-title">Stay Connected</h4>
+                        <p className='second-grid-text'>Multi-device Bluetooth, wireless and USB-C charging for every passenger, with enough power to fast-charge your tablets and laptop.</p>
                     </TextContainer>
                     
                 </Container>
                 <Container>
                     
                     <TextContainer>
-                        <h4 className='slider-title'>Your Best Audio System</h4>
-                        <p className='slider-text'>A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers the best listening experience wherever you are.</p>
+                        <h4 className='second-grid-title'>Your Best Audio System</h4>
+                        <p className='second-grid-text'>A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers the best listening experience wherever you are.</p>
                     </TextContainer>
                     <IMGContainer>
                         <img src='./images/secondgrid3.png' ait='' />
@@ -41,8 +41,8 @@ const SecondModelGrid = () => {
                 </Container>
                 <Container>
                     <IMGContainer>
-                        <h4 className='slider-title'>Real Storage</h4>
-                        <p className='slider-text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
+                        <h4 className='second-grid-title'>Real Storage</h4>
+                        <p className='second-grid-text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
                     </IMGContainer>
                     <TextContainer>
                         
