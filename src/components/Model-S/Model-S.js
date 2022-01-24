@@ -10,6 +10,9 @@ import FirstModelGrid from './FirstModelGrid';
 import DetailSlider from './DetailSlider';
 import SecondModelGrid from './SecondModelGrid';
 import VideoTab from './VideoTab';
+import './Header.css';
+import VideoPlayer from "react-background-video-player";
+const videoTab = "./videos/WM5XUG_parking.mp4-2000_EQUBJE.mp4"
 
 const ModelS = () => {
     return (
@@ -21,10 +24,16 @@ const ModelS = () => {
             <ModelTextNotes />
             <DetailSlider />
             <ModelExteriorImage />
-            <VideoTab />
             <EfficiencyDetails />
             <SecondModelGrid />
+            <VideoTab />
             <TravelAnywhere />
+            <VideoPlayer
+                className="video"
+                src={videoTab}
+                autoPlay={true}
+                muted={true}
+            />
         </div>
     )
 }

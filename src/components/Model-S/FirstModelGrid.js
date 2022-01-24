@@ -37,6 +37,15 @@ const FirstModelGrid = () => {
                     </TextContainer>
                 </Container>
                 <Container>
+                    <TextContainer>
+                        <h4 className="title">Stay Connected</h4>
+                        <p className='text'>Multi-device Bluetooth, wireless and USB-C charging for every passenger, with enough power to fast-charge your tablets and laptop.</p>
+                    </TextContainer>
+                    <IMGContainer>
+                        <img src='./images/bike.png' ait='' />
+                    </IMGContainer>
+                </Container>
+                <Container>
                     <IMGContainer>
                         <h4 className='title'>Real Storage</h4>
                         <p className='text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
