@@ -30,6 +30,12 @@ export default ModelTextNotes
 const Container = styled.div`
     display: flex;
     padding: 50px 150px; 
+    @media (max-width: 375px){
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
 
 `
 const ExteriorDiv = styled.div`
@@ -54,5 +60,6 @@ const OrderButton = styled.div`
     &:hover {
         color: white;
         background: black;
-      }
+    }
+    
 `

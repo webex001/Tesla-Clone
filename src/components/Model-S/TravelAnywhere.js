@@ -52,11 +52,20 @@ export default TravelAnywhere
 
 const Container = styled.div`
     display: flex;
+    @media (max-width: 375px){
+        flex-direction: column;
+    }
 
 `
+
+
 const GoContainer = styled.div`
     margin-top: 15px;
     width: 770px;
+    @media (max-width: 375px){
+        flex-direction: column;
+        margin-left: -320px;
+    }
 `
 
 const Wrap = styled.div`
@@ -96,6 +105,9 @@ const Buttons = styled.div`
     display: flex ;
     flex-direction: column;
     justify-content: center;
+    @media (max-width: 375px){
+        flex-direction: column;
+    }
 
 `
 const ButtonGroup = styled.div`

@@ -99,6 +99,10 @@ h6{
     color: #181b21;
     margin-left: 6em;
 }
+#model-slider{
+    width: 308px;
+    margin-left: 14px;
+}
 video {
     
     width: 100vw;

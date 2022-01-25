@@ -59,12 +59,20 @@ const ButtonGroup = styled.div`
     display: flex;
     margin-top: 490px;
     margin-bottom: 0px;
+    @media (max-width: 375px){
+        margin-top: 736px;
+        margin-left: 90px;
+    }
     @media (max-width: 768px){
         flex-direction: column;
     }
 `
 const SubContainer = styled.div`
     margin-right: 80px;
+    @media (max-width: 375px){
+        margin-top:32px;
+        
+    }
 `
 
 const LeftButton = styled.div`

@@ -26,14 +26,7 @@ const ModelS = () => {
             <ModelExteriorImage />
             <EfficiencyDetails />
             <SecondModelGrid />
-            <VideoTab />
             <TravelAnywhere />
-            <VideoPlayer
-                className="video"
-                src={videoTab}
-                autoPlay={true}
-                muted={true}
-            />
         </div>
     )
 }

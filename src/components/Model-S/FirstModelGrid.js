@@ -46,14 +46,14 @@ const FirstModelGrid = () => {
                     </IMGContainer>
                 </Container>
                 <Container>
-                    <IMGContainer>
+                    <FooterContent>
                         <h4 className='title'>Real Storage</h4>
                         <p className='text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
-                    </IMGContainer>
-                    <TextContainer>
+                    </FooterContent>
+                    <ModelName>
                         
                         <p className='text'>Model S</p>
-                    </TextContainer>
+                    </ModelName>
                 </Container>
             </Fade>
             </Wrapper>
@@ -66,15 +66,60 @@ export default FirstModelGrid
 const Wrapper = styled.div`
     background-color: #000;
     padding: 100px 33px;
+    @media (max-width: 810px){
+        flex-direction: column;
+    }
+    @media (max-width: 375px){
+        flex-direction: column;
+    }
    
 `
 const Container = styled.div`
     display: flex;
     margin: 0px 115px;
+    @media (max-width: 810px){
+        flex-direction: column;
+    }
+    @media (max-width: 375px){
+        flex-direction: column;
+    }
 `
 const IMGContainer = styled.div`
-
+@media (max-width: 375px){
+    margin-left: -264px;
+}
 `
+const FooterContent = styled.div`
+@media (max-width: 375px){
+    margin-left: -120px;
+    margin-top: 15px;
+    margin-right: -100px;
+}
+`
+
+const ModelName = styled.div`
+margin: 90px;
+@media (max-width: 810px){
+    margin-top: 0px;
+}
+@media (max-width: 375px){
+    margin-left: -120px;
+    margin-right: -100px;
+    margin-top:32px;
+    flex-direction: column;
+}
+`
+
+
 const TextContainer = styled.div`
     margin: 90px;
+    @media (max-width: 810px){
+        margin-top: 0px;
+    }
+    @media (max-width: 375px){
+        margin-left: -120px;
+        margin-right: -100px;
+        margin-top:32px;
+        flex-direction: column;
+    }
 `

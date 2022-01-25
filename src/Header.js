@@ -11,7 +11,7 @@ const Header = ({isMenuOpen, setIsMenuOpen}) => {
                     <img className="header__logoImg" src="https://assets.website-files.com/5e8fceb1c9af5c3915ec97a0/5ec2f037975ed372da9f6286_Tesla-Logo-PNG-HD.png" alt=""/>
                 </Link>
            </div>
-           <div className="header__links">
+           <div id="nav-items" className="header__links">
                <Link to="/model-s">Model S</Link>
                <Link to="/">Model 3</Link>
                <Link to="/">Model X</Link>

@@ -69,12 +69,24 @@ const FistInterior = styled.div``
 const ButtonGroup = styled.div`
     display: flex;
     margin-bottom: 80px;
-    @media (max-width: 768px){
+    @media (max-width: 810px){
+        flex-direction: column;
+    }
+    @media (max-width: 375px){
         flex-direction: column;
     }
 `
 const SubContainer = styled.div`
     margin-right: 80px;
+    @media (max-width: 810px){
+        flex-direction: column;
+        margin-left: 120px;
+        margin-bottom: 25px;
+    }
+    @media (max-width: 375px){
+        margin-bottom: 20px;
+        margin-left: 130px;
+    }
 `
 
 const LeftButton = styled.div`
@@ -111,6 +123,14 @@ const OrderButton = styled.div`
         color: black;
         background: white;
       }
+    @media (max-width: 810px){
+        margin-right: 94px;
+        margin-left: 79px;          
+    }
+    @media (max-width: 375px){
+        margin-right: 94px;
+        margin-left: 79px;          
+    }
 `
 
 const DownArrow = styled.img`

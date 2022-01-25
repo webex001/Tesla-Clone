@@ -14,7 +14,7 @@ const DetailSlider = () => {
 
             <Container>
                 <IMGContainer>
-                    <img src='./images/Model-slider.png' ait='' />
+                    <img id='model-slider' src='./images/Model-slider.png' ait='' />
                 </IMGContainer>
             </Container>
             </Fade>
@@ -27,6 +27,11 @@ export default DetailSlider
 const Wrapper = styled.div`
     background: #f5f5f5;
     padding:90px 40px;
+    @media (max-width: 375px){
+        flex-direction: column;
+        margin-left: -170px;
+        margin-right: -182px;
+    }
 `
 const Container = styled.div`
 
@@ -34,4 +39,8 @@ const Container = styled.div`
 const IMGContainer = styled.div`
     padding-left: 70px;
     margin-top: 3em;
+    @media (max-width: 375px){
+        width: 337px;
+        margin-left: 80px;
+    }
 `

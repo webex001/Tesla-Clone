@@ -59,3 +59,21 @@
 .header__link--hidden{
     visibility: hidden;
 }
+
+@media (max-width: 375px){
+    #nav-items{
+        display: none;
+    }
+    .header{
+        margin-left: -28px;
+    }
+}
+
+@media (max-width: 810px){
+    #nav-items{
+        display: none;
+    }
+    .header{
+        margin-left: -2.9rem;
+    }
+}
