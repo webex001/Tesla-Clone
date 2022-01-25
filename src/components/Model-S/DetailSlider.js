@@ -30,10 +30,13 @@ const Wrapper = styled.div`
     @media (max-width: 375px){
         flex-direction: column;
         margin-left: -170px;
-        margin-right: -182px;
+        margin-right: 0px;
     }
 `
 const Container = styled.div`
+@media (max-width: 375px){
+    margin-right: -185px;
+}
 
 `
 const IMGContainer = styled.div`

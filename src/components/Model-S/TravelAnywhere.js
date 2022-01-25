@@ -116,9 +116,16 @@ const ButtonGroup = styled.div`
     @media (max-width: 768px){
         flex-direction: column;
     }
+    @media (max-width: 375px){
+        margin-left: 90px;
+        margin-top: 585px;
+    }
 `
 const SubContainer = styled.div`
     margin-right: 80px;
+    @media (max-width: 375px){
+        margin-bottom: 25px;
+    }
 `
 const ExteriorDiv = styled.div`
     padding: 10px 50px;

@@ -35,12 +35,16 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
     `
 
 const TextContainer = styled.div`
     background: black;
     padding: 35px 536px;
     margin-top: -40px;
+    @media (max-width: 375px){
+        padding: 0px;
+    }
 `
 
 const ItemText = styled.div`
