@@ -36,6 +36,9 @@ const Container = styled.div`
         margin-top: 20px;
         padding-bottom: 30px;
     }
+    @media (max-width: 810px){
+        flex-direction: column;
+    }
 
 `
 const ExteriorDiv = styled.div`

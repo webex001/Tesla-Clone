@@ -30,7 +30,7 @@ export default EfficiencyDetails
 const Container = styled.div`
     display: flex;
     padding: 50px 150px; 
-    @media (max-width: 375px){
+    @media (max-width: 400px){
         flex-direction: column;
         padding: 0px;
         margin-top: 20px;

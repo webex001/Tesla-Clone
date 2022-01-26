@@ -64,7 +64,7 @@ const GoContainer = styled.div`
     width: 770px;
     @media (max-width: 375px){
         flex-direction: column;
-        margin-left: -320px;
+        margin-left: -24px;
     }
 `
 
@@ -133,5 +133,8 @@ const ExteriorDiv = styled.div`
 `
 const ExteriorNote = styled.div`
     padding-top: 20px;
+    @media (max-width: 375px){
+        margin-right: 336px;
+    }
     
 `

@@ -39,16 +39,7 @@ const SecondModelGrid = () => {
                     </IMGContainer>
                    
                 </Container>
-                <Container>
-                    <FooterContent>
-                        <h4 className='second-grid-title'>Real Storage</h4>
-                        <p className='second-grid-text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
-                    </FooterContent>
-                    <ModelName>
-                        
-                        <p className='text'>Model S</p>
-                    </ModelName>
-                </Container>
+                
             </Fade>
             </Wrapper>
     )

@@ -45,6 +45,9 @@ const TextContainer = styled.div`
     @media (max-width: 375px){
         padding: 0px;
     }
+    @media (max-width: 810px){
+        padding: 0px;
+    }
 `
 
 const ItemText = styled.div`

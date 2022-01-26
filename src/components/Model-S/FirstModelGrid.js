@@ -45,16 +45,7 @@ const FirstModelGrid = () => {
                         <img src='./images/bike.png' ait='' />
                     </IMGContainer>
                 </Container>
-                <Container>
-                    <FooterContent>
-                        <h4 className='title'>Real Storage</h4>
-                        <p className='text'>With front and rear trunks and fold-flat seats, Model S is a luxury car where you can fit your bike without taking the wheel off, and your luggage too.</p>
-                    </FooterContent>
-                    <ModelName>
-                        
-                        <p className='text'>Model S</p>
-                    </ModelName>
-                </Container>
+               
             </Fade>
             </Wrapper>
        
@@ -98,7 +89,7 @@ const FooterContent = styled.div`
 `
 
 const ModelName = styled.div`
-margin: 90px;
+margin: 24px 118px;
 @media (max-width: 810px){
     margin-top: 0px;
 }
@@ -114,7 +105,7 @@ margin: 90px;
 const TextContainer = styled.div`
     margin: 90px;
     @media (max-width: 810px){
-        margin-top: 0px;
+        margin-top: 30px;
     }
     @media (max-width: 375px){
         margin-left: -120px;
