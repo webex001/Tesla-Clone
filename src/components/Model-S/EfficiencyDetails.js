@@ -41,6 +41,9 @@ const Container = styled.div`
 const ExteriorDiv = styled.div`
     padding: 10px 50px;
     width: 440px;
+    @media (max-width: 320px){
+        margin-left: -29px;
+    }
 `
 const ExteriorNote = styled.div`
     padding-top: 20px;

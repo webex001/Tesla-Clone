@@ -62,6 +62,9 @@ const Wrap = styled.div`
 const ItemText = styled.div`
     padding-top: 15vh;
     text-align: center;
+    @media (max-width: 320px){
+        margin-bottom: 20px;
+    }
 
 `
 const FistInterior = styled.div``
@@ -71,6 +74,10 @@ const ButtonGroup = styled.div`
     margin-bottom: 80px;
     @media (max-width: 810px){
         flex-direction: column;
+    }
+    @media (max-width: 320px){
+        margin-left: 20px;
+        display: none;
     }
     @media (max-width: 375px){
         flex-direction: column;

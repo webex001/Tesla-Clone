@@ -100,6 +100,10 @@ const Wrap = styled.div`
         color: white;
         background: black;
       }
+    @media (max-width: 320px){
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
 `
 const Buttons = styled.div`
     display: flex ;
@@ -116,10 +120,14 @@ const ButtonGroup = styled.div`
     @media (max-width: 768px){
         flex-direction: column;
     }
+    @media (max-width: 320px){
+        display: none;
+    }
     @media (max-width: 375px){
         margin-left: 90px;
         margin-top: 585px;
     }
+    
 `
 const SubContainer = styled.div`
     margin-right: 80px;

@@ -56,19 +56,28 @@ const ItemText = styled.div`
 const FistInterior = styled.div``
 
 const ButtonGroup = styled.div`
+@media (max-width: 320px){
+    display: none;
+}
     display: flex;
     margin-top: 490px;
     margin-bottom: 0px;
+    
     @media (max-width: 768px){
         flex-direction: column;
     }
+   
     @media (max-width: 376px){
         margin-left: 85px;
         margin-top: 790px;
     }
+    
 `
 const SubContainer = styled.div`
     margin-right: 80px;
+    @media (max-width: 320px){
+        display: none;
+    }
     @media (max-width: 376px){
         margin-bottom: 25px;
     }

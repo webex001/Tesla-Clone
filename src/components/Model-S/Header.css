@@ -121,3 +121,14 @@ video {
     }
 }
 
+@media (max-width: 320px){
+    .model-details{
+        padding-top: 0px;
+        margin-left: -20px;
+    }
+    #model-slider{
+        width: 300px;
+        margin-left: -10px;
+    }
+}
+
