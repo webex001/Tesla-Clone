@@ -38,8 +38,8 @@ const Container = styled.div`
         margin-right: -185px;
     }
     @media (max-width: 425px){
-        margin-left: -191px;
-        margin-right: -30px;
+        margin-left: -190px;
+        margin-right: -196px;
     }
 
 `

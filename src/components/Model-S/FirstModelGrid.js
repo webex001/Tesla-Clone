@@ -74,6 +74,9 @@ const Container = styled.div`
     @media (max-width: 375px){
         flex-direction: column;
     }
+    @media (max-width: 425px){
+        .display: content;
+    }
 `
 const IMGContainer = styled.div`
 @media (max-width: 375px){

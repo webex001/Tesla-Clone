@@ -67,14 +67,21 @@ const Container = styled.div`
     @media (max-width: 375px){
         flex-direction: column;
     }
+    @media (max-width: 425px){
+        display: content;
+    }
 `
 const IMGContainer = styled.div`
-@media (max-width: 375px){
-    margin-left: -264px;
-}
-@media (max-width: 320px){
-    margin-left: -319px;
-}
+    @media (max-width: 375px){
+        margin-left: -264px;
+    }
+    @media (max-width: 320px){
+        margin-left: -319px;
+    }
+    @media (max-width: 425px){
+        margin-left: -98px;
+        margin-top: 35px;
+    }
 
 `
 const TextContainer = styled.div`
@@ -87,6 +94,9 @@ const TextContainer = styled.div`
     margin-top: -45px;
     margin-bottom:25px;
     flex-direction: column;
+}
+@media (max-width: 425px){
+    margin-left: -135px;
 }
 `
 const FooterContent = styled.div`

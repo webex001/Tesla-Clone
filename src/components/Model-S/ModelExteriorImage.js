@@ -46,6 +46,8 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    
     `
 
 const ItemText = styled.div`
@@ -63,11 +65,11 @@ const ButtonGroup = styled.div`
     margin-top: 490px;
     margin-bottom: 0px;
     
-    @media (max-width: 768px){
-        flex-direction: column;
+    @media (max-width: 425px){
+        display: content;
     }
    
-    @media (max-width: 376px){
+    @media (max-width: 375px){
         margin-left: 85px;
         margin-top: 790px;
     }
@@ -80,6 +82,9 @@ const SubContainer = styled.div`
     }
     @media (max-width: 376px){
         margin-bottom: 25px;
+    }
+    @media (max-width: 425px){
+        margin-bottom: 40px;
     }
 `
 
@@ -128,5 +133,9 @@ const Buttons = styled.div`
     display: flex ;
     flex-direction: column;
     justify-content: center;
-
+    
+    @media (max-width: 425px){
+        margin-top: 318px;
+        margin-left: 118px;
+    }
 `

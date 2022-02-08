@@ -131,4 +131,10 @@ video {
         margin-left: -10px;
     }
 }
+@media (max-width: 425px){
+    #model-slider{
+        width: 378px;
+        margin-left: 104px;
+    }
+}
 

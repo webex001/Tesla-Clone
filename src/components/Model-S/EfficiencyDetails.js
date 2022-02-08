@@ -36,6 +36,9 @@ const Container = styled.div`
         margin-top: 20px;
         padding-bottom: 30px;
     }
+    @media (max-width: 425px){
+        display: content;
+    }
 
 `
 const ExteriorDiv = styled.div`
@@ -44,9 +47,17 @@ const ExteriorDiv = styled.div`
     @media (max-width: 320px){
         margin-left: -29px;
     }
+    @media (max-width: 425px){
+        margin-left: -19px;
+        margin-top: 38px;
+    }
 `
 const ExteriorNote = styled.div`
     padding-top: 20px;
+    @media (max-width: 425px){
+        margin-left: -19px;
+        margin-top: 38px;
+    }
     
 `
 const OrderButton = styled.div`
