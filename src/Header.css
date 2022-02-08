@@ -65,10 +65,31 @@
         display: none;
     }
     .header{
-        margin-left: -28px;
+        margin-left: -4.9rem;
     }
     .header__logoImg{
         margin-left: 27px;
+    }
+}
+
+@media (max-width: 320px){
+    div.header{
+        margin-left: -10.9rem;
+    }
+    .travel-anywhere-model-details{
+        margin-left: -5px;
+        margin-right: 61px;
+    }
+}
+
+@media (max-width: 425px){
+    .ludicrous-details{
+        margin-left: -148px;
+        margin-right: -166px;
+    }
+    #model-slider{
+        width: 381px;
+        margin-left: 99px;
     }
 }
 

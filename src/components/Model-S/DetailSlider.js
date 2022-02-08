@@ -34,9 +34,13 @@ const Wrapper = styled.div`
     }
 `
 const Container = styled.div`
-@media (max-width: 375px){
-    margin-right: -185px;
-}
+    @media (max-width: 375px){
+        margin-right: -185px;
+    }
+    @media (max-width: 425px){
+        margin-left: -191px;
+        margin-right: -30px;
+    }
 
 `
 const IMGContainer = styled.div`

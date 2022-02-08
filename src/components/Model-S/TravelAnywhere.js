@@ -39,7 +39,7 @@ const TravelAnywhere = () => {
                 </Fade>
                 <Fade bottom>
                     <ExteriorNote>
-                        <p className="model-details">With the longest range and quickest acceleration of any electric vehicle in production, Model S Plaid is the highest performing sedan ever built. All Model S powertrains, with updated battery architecture, are capable of back-to-back, consistent 1/4 mile runs.</p>
+                        <p className="travel-anywhere-model-details model-details">With the longest range and quickest acceleration of any electric vehicle in production, Model S Plaid is the highest performing sedan ever built. All Model S powertrains, with updated battery architecture, are capable of back-to-back, consistent 1/4 mile runs.</p>
                     </ExteriorNote>
                 </Fade>
                 <OrderButton>ORDER NOW</OrderButton>
@@ -103,6 +103,10 @@ const Wrap = styled.div`
     @media (max-width: 320px){
         margin-top: 25px;
         margin-bottom: 15px;
+    }
+    @media (max-width: 375px){
+        margin-top: 36px;
+        margin-bottom: 70px;
     }
 `
 const Buttons = styled.div`

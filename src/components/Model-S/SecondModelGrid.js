@@ -72,6 +72,9 @@ const IMGContainer = styled.div`
 @media (max-width: 375px){
     margin-left: -264px;
 }
+@media (max-width: 320px){
+    margin-left: -319px;
+}
 
 `
 const TextContainer = styled.div`

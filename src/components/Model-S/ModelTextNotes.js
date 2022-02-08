@@ -17,7 +17,7 @@ const ModelTextNotes = () => {
                 </Fade>
                 <Fade bottom>
                     <ExteriorNote>
-                        <p className="model-details">With the longest range and quickest acceleration of any electric vehicle in production, Model S Plaid is the highest performing sedan ever built. All Model S powertrains, with updated battery architecture, are capable of back-to-back, consistent 1/4 mile runs.</p>
+                        <p className="ludicrous-details model-details">With the longest range and quickest acceleration of any electric vehicle in production, Model S Plaid is the highest performing sedan ever built. All Model S powertrains, with updated battery architecture, are capable of back-to-back, consistent 1/4 mile runs.</p>
                     </ExteriorNote>
                 </Fade>
             </Container>
@@ -44,10 +44,15 @@ const Container = styled.div`
 const ExteriorDiv = styled.div`
     padding: 10px 50px;
     width: 440px;
-    @media (max-width: 321px){
+    @media (max-width: 320px){
         padding-top: 15px;
         margin-left: -25px; 
     }
+    @media (max-width: 425px){
+        margin-left: -148px;
+        margin-right: -166px; 
+    }
+
 
 `
 const ExteriorNote = styled.div`

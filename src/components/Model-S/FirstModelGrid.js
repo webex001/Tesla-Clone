@@ -77,7 +77,10 @@ const Container = styled.div`
 `
 const IMGContainer = styled.div`
 @media (max-width: 375px){
-    margin-left: -264px;
+    margin-left: -319px;
+}
+@media (max-width: 425px){
+    margin-left: -215px;
 }
 `
 const FooterContent = styled.div`
@@ -112,5 +115,9 @@ const TextContainer = styled.div`
         margin-right: -100px;
         margin-top:32px;
         flex-direction: column;
+    }
+    @media (max-width: 425px){
+        margin-left: -120px;
+        margin-right: -91px;
     }
 `
